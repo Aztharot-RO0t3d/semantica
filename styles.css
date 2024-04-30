@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/019/036/348/non_2x/old-paper-texture-paper-vintage-background-with-copy-space-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.newspaper-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/019/036/348/non_2x/old-paper-texture-paper-vintage-background-with-copy-space-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 20px solid #333;
+    border-right: 20px solid #333;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.left-column {
+    float: left;
+    width: 25%;
+}
+
+.right-column {
+    float: right;
+    width: 70%;
+}
+
+section {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+section h2 {
+    padding: 20px;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
